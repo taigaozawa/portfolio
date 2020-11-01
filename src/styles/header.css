@@ -2,6 +2,7 @@
   background-color: rgba(255, 255, 255, 0.753);
   width: 100%;
   position: fixed;
+  z-index: 100;
 }
 .header {
 }
@@ -21,6 +22,7 @@
   font-weight: 500;
   color: rgb(39, 39, 39);
   margin-top: 0.6rem;
+  transition: 500ms;
 }
 .headerLogo_text-en {
   font-size: 1.2rem;
@@ -44,6 +46,7 @@
   padding-right: 0.3rem;
   padding-top: 0.5rem;
   padding-bottom: 0.4rem;
+  transition: 500ms;
 }
 .menu_item:hover {
   background-color: rgb(63, 63, 63);
@@ -60,6 +63,7 @@
   font-size: 0.9rem;
   font-weight: 500;
   color: rgb(37, 37, 37);
+  transition: 400ms;
 }
 .menuText-en {
   text-align: center;

@@ -1,3 +1,70 @@
+.heroImageContainer {
+  position: relative;
+}
+.heroImageFilter {
+  display: block;
+}
+.heroImageTextBase {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 5rem;
+  background-color: rgba(255, 255, 255, 0.856);
+  border-radius: 5rem;
+}
+.heroImageText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.heroImageText-ja {
+  animation: fadeInOutJa 10s ease 0s infinite normal;
+}
+.heroImageText-en {
+  animation: fadeInOutEn 10s ease 0s infinite normal;
+}
 .heroImage {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+@keyframes fadeInOutJa {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeInOutEn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
