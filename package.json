@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-typescript",
-  "description": "Gatsby TypeScript starter",
+  "name": "taiga-ozawa-portfolio",
+  "description": "taiga-ozawa-portfolio",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {

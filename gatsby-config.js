@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Typescript Starter`,
+    title: `小澤泰河 Taiga Ozawa`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
