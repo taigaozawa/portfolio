@@ -7,20 +7,20 @@ const Header = () => (
   <div className="headerContainer" id="header">
     <div className="header">
       <div className="headerInner">
-        <div className="headerLogo">
+        <Link
+          to="/"
+          className="headerLogo"
+        >
           <h1 className="headerLogo_text">
-            <Link
-              to="/"
-            >
-              <span className="headerLogo_text">
-                小澤泰河
+            <span className="headerLogo_text">
+              小澤泰河
             </span>
-              <span className="headerLogo_text headerLogo_text-en">
-                TaigaOzawa
+            <span className="headerLogo_text headerLogo_text-en">
+              TaigaOzawa
             </span>
-            </Link>
+
           </h1>
-        </div>
+        </Link>
         <div>
           <ul className="menu">
             <li className="menu_item"><Link to="/profile">

@@ -13,7 +13,8 @@ const IndexHero = () => {
     <div className="heroImageContainer">
       <div className="heroImageFilter">
         <img className="heroImage" src="/TMU.jpg" alt="TMU" />
-        <div className="heroImageTextBase"> </div>
+        <h1 className="heroImageTitle">Taiga Ozawa</h1>
+        <div className="heroImageTextBase"></div>
         <span className="heroImageText heroImageText-ja">
           ようこそ
         </span>

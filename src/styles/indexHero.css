@@ -4,24 +4,34 @@
 .heroImageFilter {
   display: block;
 }
+.heroImageTitle {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 6rem;
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+  text-align: center;
+}
 .heroImageTextBase {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
-  width: 12rem;
-  height: 7rem;
+  width: 10rem;
+  height: 5rem;
   background-color: rgba(255, 255, 255, 0.856);
   border-radius: 5rem;
 }
 .heroImageText {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .heroImageText-ja {
   animation: fadeInOutJa 10s ease 0s infinite normal;
@@ -44,6 +54,7 @@
   text-decoration: none;
   padding-top: 60px;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 .heroScroll .heroScroll_sign {
   position: absolute;
