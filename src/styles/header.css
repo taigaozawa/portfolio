@@ -14,24 +14,29 @@
   display: flex;
 }
 .headerLogo {
-  width: 100%;
   margin-right: auto;
+  transition: 500ms;
+  padding: 0rem 0.7rem;
+}
+.headerLogo:hover {
+  background-color: rgb(63, 63, 63);
+  transition: 500ms;
 }
 .headerLogo_text {
   font-size: 1.35rem;
   font-weight: 500;
   color: rgb(39, 39, 39);
   margin-top: 0.6rem;
-  transition: 500ms;
+  transition: 400ms;
 }
 .headerLogo_text-en {
   font-size: 1.2rem;
   font-weight: 500;
   margin-left: 0.3rem;
 }
-.headerLogo_text a:hover .headerLogo_text {
-  color: rgb(109, 109, 109);
-  transition: 500ms;
+.headerLogo:hover .headerLogo_text {
+  color: white;
+  transition: 400ms;
 }
 
 .menu {

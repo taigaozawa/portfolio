@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 import '../styles/header.css';
 
 const Header = () => (
-  <div className="headerContainer">
+  <div className="headerContainer" id="header">
     <div className="header">
       <div className="headerInner">
         <div className="headerLogo">

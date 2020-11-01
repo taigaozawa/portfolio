@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { setConstantValue } from 'typescript';
 import useInterval from 'use-interval';
+import { Link } from 'react-scroll';
 
 import '../styles/indexHero.css';
 
@@ -20,6 +20,15 @@ const IndexHero = () => {
         <span className="heroImageText heroImageText-en">
           Welcome
         </span>
+        <Link
+          className="heroScroll"
+          to="1"
+          smooth={true}
+          offset={-58}
+          duration={800}
+        >
+          <span className='heroScroll_sign'></span><span className="heroScroll_text">Scroll</span>
+        </Link>
       </div>
     </div >
   );
