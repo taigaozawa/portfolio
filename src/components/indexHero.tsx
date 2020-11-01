@@ -23,7 +23,7 @@ const IndexHero = () => {
         </span>
         <Link
           className="heroScroll"
-          to="1"
+          to="about"
           smooth={true}
           offset={-58}
           duration={800}

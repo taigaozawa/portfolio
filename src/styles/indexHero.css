@@ -34,10 +34,10 @@
   font-size: 1.3rem;
 }
 .heroImageText-ja {
-  animation: fadeInOutJa 10s ease 0s infinite normal;
+  animation: fadeInOutJa 6.5s ease 0s infinite normal;
 }
 .heroImageText-en {
-  animation: fadeInOutEn 10s ease 0s infinite normal;
+  animation: fadeInOutEn 6.5s ease 0s infinite normal;
 }
 .heroImage {
   width: 100vw;

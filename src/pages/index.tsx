@@ -2,6 +2,7 @@ import * as React from 'react';
 import Link from 'gatsby-link';
 import Layout from '../components/layout';
 import IndexHero from '../components/indexHero';
+import IndexAbout from '../components/indexAbout';
 import { homedir } from 'os';
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
@@ -19,6 +20,7 @@ interface IndexPageProps {
 const Home = () => (
   <Layout>
     <IndexHero />
+    <IndexAbout />
     <p id="1">サンプルテキスト</p>
     <p>サンプルテキスト</p>
     <p>サンプルテキスト</p>
