@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 import DetailBox from '../components/detailBox';
 
 import '../styles/indexAbout.css';
+import '../styles/index.css';
 
 const IndexAbout = () => {
   //const [showTextFlg, setShowTextFlg] = React.useState<number>(0);
@@ -12,8 +13,8 @@ const IndexAbout = () => {
   //}, 3000)
   return (
     <>
-      <div className="aboutTitleContainer" id="about">
-        <h1 className="aboutTitle">紹介 About</h1>
+      <div className="indexTitleContainer" id="about">
+        <h1 className="indexTitle">紹介 About</h1>
       </div>
 
       <div className="aboutContainer">
