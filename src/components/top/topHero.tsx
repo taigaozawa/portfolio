@@ -2,9 +2,9 @@ import * as React from 'react';
 import useInterval from 'use-interval';
 import { Link } from 'react-scroll';
 
-import '../styles/indexHero.css';
+import '../../styles/topHero.css';
 
-const IndexHero = () => {
+const TopHero = () => {
   const [showTextFlg, setShowTextFlg] = React.useState<number>(0);
   //useInterval(() => {
   //  setShowTextFlg(showTextFlg + 1);
@@ -35,4 +35,4 @@ const IndexHero = () => {
   );
 }
 
-export default IndexHero;
+export default TopHero;
