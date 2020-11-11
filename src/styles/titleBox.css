@@ -1,0 +1,16 @@
+.titleBoxContainer {
+  font-size: 0.6rem;
+  display: flex;
+}
+.titleBox {
+  margin-top: 3rem;
+  font-weight: 400;
+  font-size: 1rem;
+  background: rgb(65, 65, 65);
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.5rem;
+  color: white;
+  display: inline-block;
+}

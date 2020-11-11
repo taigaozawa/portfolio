@@ -1,19 +1,5 @@
 .topMain {
-  margin-top: 6rem;
-}
-.topTitleContainer {
-  font-size: 0.6rem;
-  display: flex;
-}
-.topTitle {
-  font-weight: 300;
-  background: rgb(65, 65, 65);
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0.5rem;
-  color: white;
-  display: inline-block;
+  margin-top: 5rem;
 }
 .topContentContainer {
   position: relative;
@@ -35,7 +21,7 @@
   width: 150%;
   height: 75%;
   margin: 0 -10% 0;
-  background: linear-gradient(45deg, #ce3f63, #ee7c12);
+  background: linear-gradient(45deg, #a33a54, #ffb835);
   -webkit-transform-origin: left center;
   -ms-transform-origin: left center;
   transform-origin: left center;
@@ -104,13 +90,4 @@
 .topParagraph {
   text-align: center;
   font-weight: 500;
-}
-.topParagraph a {
-  text-decoration: underline;
-  color: rgb(0, 153, 255);
-  transition: 400ms;
-}
-.topParagraph a:hover {
-  color: rgb(146, 211, 255);
-  transition: 400ms;
 }

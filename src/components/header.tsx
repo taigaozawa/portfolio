@@ -13,7 +13,6 @@ const Header = () => (
         >
           <h1 className="headerLogo_text">
             <span className="headerLogo_text">
-              小澤泰河
             </span>
             <span className="headerLogo_text headerLogo_text-en">
               TaigaOzawa

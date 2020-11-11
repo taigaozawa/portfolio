@@ -1,0 +1,39 @@
+.profileImageContainer {
+  position: relative;
+}
+.profileImageText {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  font-weight: 500;
+  font-size: 1.3rem;
+  width: 50%;
+  background: linear-gradient(-135deg,rgb(255, 136, 0), rgb(194, 18, 127));
+  display: flex;
+  justify-content: center;
+}
+.profileImage {
+  width: 100vw;
+}
+.profileTitleContainer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: rgb(255, 255, 255);
+}
+.profileTitle {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.profileTitle-en {
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+  font-size: 3.5rem;
+}
+.profileTitleDescription {
+  display: flex;
+}
+.profileTitleDescription_text {
+  font-weight: 500;
+}
+.profileTitleDescription_text-en {
+  margin-left: 1rem;
+}

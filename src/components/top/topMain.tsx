@@ -1,7 +1,6 @@
 import * as React from 'react';
-import useInterval from 'use-interval';
-import { Link } from 'react-scroll';
 import DetailBox from '../detailBox';
+import TitleBox from '../titleBox';
 
 import '../../styles/main.css';
 import '../../styles/topMain.css';
@@ -14,11 +13,9 @@ const TopMain = () => {
   return (
     <>
       <div className="topMain">
-        <div className="topTitleContainer" id="about">
-          <h1 className="topTitle">紹介 About me</h1>
-        </div>
+        <TitleBox ja="紹介" en="About me" />
 
-        <div className="topContentContainer">
+        <div className="topContentContainer" id="about">
           <div className="topContentCopy">WHO AM I ?</div>
           <div className="topContent">
             <h2>
@@ -61,16 +58,14 @@ const TopMain = () => {
           </div>
         </div>
 
-        <div className="topTitleContainer" id="about">
-          <h1 className="topTitle">更新情報 News</h1>
-        </div>
+        <TitleBox ja="最新情報" en="News" />
         <div className="topContentContainer topContentContainer-blue">
           <div className="topContentCopy">WHAT'S NEW?</div>
           <div className="topContent topContent-blue">
             <table>
               <tr>
                 <td>2020/11/08</td>
-                <td>旧サイトから新サイトに移行しました。</td>
+                <td><a href="/former">旧サイト</a>から新サイトに移行しました。</td>
               </tr>
               <tr>
                 <td>2020/11/01</td>
@@ -80,9 +75,10 @@ const TopMain = () => {
           </div>
         </div>
         <div className="whiteSpace5"></div>
-        <div className="topTitleContainer" id="about">
-          <h1 className="topTitle">このサイトについて About this site</h1>
-        </div>
+
+
+        <TitleBox ja="このサイトについて" en="About this site" />
+
         <div className="topParagraphContainer">
           <p className="topParagraph">この Web サイトは TypeScript、React、Gatsby で実装し、GitHub Pages でホスティングしています。</p>
           <p className="topParagraph">ソースコードは <a href="https://github.com/taigaozawa/portfolio">GitHub</a> で公開しています。</p>

@@ -1,17 +1,22 @@
 .headerContainer {
-  background-color: rgba(255, 255, 255, 0.753);
+  background-color: rgba(255, 255, 255, 0.87);
   width: 100%;
   position: fixed;
   z-index: 100;
+  border-bottom: 2px solid orange;
 }
 .header {
+  display: flex;
+  justify-content: center;
 }
 .headerInner {
   max-width: 1200px;
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -1.5rem;
   display: flex;
+}
+.headerInner a {
+  text-decoration: none;
 }
 .headerLogo {
   margin-right: auto;
@@ -25,18 +30,14 @@
 .headerLogo_text {
   font-size: 1.35rem;
   font-weight: 500;
-  color: rgb(39, 39, 39);
-  margin-top: 0.6rem;
+  color: rgb(0, 0, 0);
+  margin-top: 0.8rem;
   transition: 400ms;
-}
-.headerLogo_text-en {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-left: 0.3rem;
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
 }
 .headerLogo:hover .headerLogo_text {
-  color: white;
   transition: 400ms;
+  color: white;
 }
 
 .menu {
@@ -68,11 +69,11 @@
   line-height: 1.2rem;
   font-size: 0.9rem;
   font-weight: 500;
-  color: rgb(37, 37, 37);
+  color: rgb(0, 0, 0);
   transition: 400ms;
 }
 .menuText-en {
   text-align: center;
-  line-height: 1.2rem;
+  line-height: 1.0rem;
   font-size: 0.8rem;
 }

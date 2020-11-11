@@ -9,6 +9,18 @@ td {
   font-weight: 500;
   text-align: left;
 }
+a {
+  text-decoration: underline;
+  color: rgb(0, 153, 255);
+  transition: 400ms;
+}
+a:hover {
+  color: rgb(146, 211, 255);
+  transition: 400ms;
+}
+.background-gray {
+  background-color: rgb(238, 238, 238);
+}
 .whiteSpace {
   height: 1rem;
 }

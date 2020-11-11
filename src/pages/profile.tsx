@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Link from 'gatsby-link';
 import Layout from '../components/layout';
-import TopHero from '../components/top/topHero';
-import TopMain from '../components/top/topMain';
+import ProfileMain from '../components/profile/profileMain';
+import ProfileHero from '../components/profile/profileHero';
 import { homedir } from 'os';
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
@@ -17,20 +17,10 @@ interface IndexPageProps {
   }
 }
 
-const Home = () => (
+const ProfilePage = () => (
   <Layout>
-    <TopHero />
-    <TopMain />
+    <ProfileHero />
+    <ProfileMain />
   </Layout>
 );
-export default Home;
-
-export const pageQuery = graphql`
-  query IndexQuery {
-        site {
-        siteMetadata {
-        title
-      }
-    }
-  }
-`
+export default ProfilePage;
