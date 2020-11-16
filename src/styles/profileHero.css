@@ -7,13 +7,15 @@
   transform: translateY(-50%);
   font-weight: 500;
   font-size: 1.3rem;
-  width: 50%;
+  width: 80%;
   background: linear-gradient(-135deg,rgb(255, 136, 0), rgb(194, 18, 127));
   display: flex;
   justify-content: center;
 }
 .profileImage {
   width: 100vw;
+  height: 70vh;
+  object-fit: cover;
 }
 .profileTitleContainer {
   margin-top: 3rem;
