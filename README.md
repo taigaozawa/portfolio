@@ -1,5 +1,7 @@
 # Portfolio
 
+Site URL -> https://taigaozawa.netlify.app
+
 ## Framework
 - Gatsby
 - React
