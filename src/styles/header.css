@@ -67,7 +67,7 @@
   white-space: nowrap;
   text-align: center;
   line-height: 1.2rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: rgb(0, 0, 0);
   transition: 400ms;
@@ -75,5 +75,5 @@
 .menuText-en {
   text-align: center;
   line-height: 1.0rem;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }

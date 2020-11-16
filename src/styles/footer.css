@@ -4,6 +4,10 @@
   margin-top: 5rem;
   padding-top: 2rem;
   padding-bottom: 3rem;
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
 }
 .footerInner {
   width: 90%;

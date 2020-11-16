@@ -5,3 +5,10 @@ html {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
 }
+
+.pageWrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 15rem;
+  box-sizing: border-box;
+}

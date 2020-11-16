@@ -1,0 +1,11 @@
+.titleCopyContainer {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.titleCopy {
+  font-size: 3rem;
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+  color: black;
+}

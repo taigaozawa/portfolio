@@ -17,9 +17,11 @@ const Layout: React.FC = (props) => (
         { name: 'keywords', content: '小澤泰河, Taiga Ozawa' },
       ]}
     />
-    <Header />
-    <Main>{props.children}</Main>
-    <Footer />
+    <div className="pageWrapper">
+      <Header />
+      <Main>{props.children}</Main>
+      <Footer />
+    </div>
   </div>
 );
 
