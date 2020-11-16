@@ -126,7 +126,7 @@ const ProfileMain = () => {
     ),
     new Career(
       2020, 10, -1, -1,
-      'フューチャー株式会社', 'Future', 'https://future.co.jp/',
+      'フューチャー株式会社', 'Future', 'https://www.future.co.jp/',
       'Engineer Camp', 'Engineer Camp',
       'Web アプリケーション開発', 'Web application development',
       'インターンシップ', 'internship',
@@ -308,21 +308,23 @@ const ProfileMain = () => {
                 <div className="profileContentCareer_table">
                   <div>
                     {careers.map(career => (
-                      <CareerBox>
-                        <div className="careerBox_title">
-                          <h2>{career.companyJa}</h2>
-                          <div className="careerBoxForm">{career.formJa}</div>
-                        </div>
-                        <div className="careerBox_content">
-                          <div className="careerBoxProgram">「{career.programJa}」</div>
-                          <div className="careerBoxDescription">... {career.descriptionJa}</div>
-                          <div className="careerBoxSkillsContainer">
-                            {career.skills.map(skill => (
-                              <span className="careerSkill">{skill}</span>
-                            ))}
+                      <a className="careerBoxLink" href={career.companyUrl}>
+                        <CareerBox>
+                          <div className="careerBox_title">
+                            <h2>{career.companyJa}</h2>
+                            <div className="careerBoxForm">{career.formJa}</div>
                           </div>
-                        </div>
-                      </CareerBox>
+                          <div className="careerBox_content">
+                            <div className="careerBoxProgram">「{career.programJa}」</div>
+                            <div className="careerBoxDescription">... {career.descriptionJa}</div>
+                            <div className="careerBoxSkillsContainer">
+                              {career.skills.map(skill => (
+                                <span className="careerSkill">{skill}</span>
+                              ))}
+                            </div>
+                          </div>
+                        </CareerBox>
+                      </a>
                     ))}
                   </div>
                 </div>
