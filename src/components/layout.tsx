@@ -11,6 +11,7 @@ import '../styles/layouts.css';
 const Layout: React.FC = (props) => (
   <div>
     <Helmet
+      htmlAttributes={{ lang: 'ja' }}
       title="小澤泰河 TaigaOzawa"
       meta={[
         { name: 'description', content: '小澤泰河 Taiga Ozawa' },
