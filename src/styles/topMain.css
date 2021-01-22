@@ -1,88 +1,61 @@
 .topMain {
-  margin-top: 5rem;
+  padding-top: 5rem;
+  margin-top: -1rem;
+  background-color: rgb(238, 238, 238);
 }
 .topContentContainer {
-  position: relative;
-  overflow: hidden;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
-}
-.topContentCopy {
-  position: absolute;
-  font-family: "Montserrat", "Noto Sans JP", sans-serif;
-  top: 1rem;
-  width: 100%;
-  text-align: center;
-  font-size: 4rem;
-}
-.topContentContainer:before {
-  content: "";
-  position: absolute;
-  width: 150%;
-  height: 75%;
-  margin: 0 -10% 0;
-  background: linear-gradient(45deg, #a33a54, #ffb835);
-  -webkit-transform-origin: left center;
-  -ms-transform-origin: left center;
-  transform-origin: left center;
-  -webkit-transform: rotate(-4deg);
-  -ms-transform: rotate(-4deg);
-  transform: rotate(-4deg);
-  z-index: -1;
-}
-.topContentContainer-blue {
-  padding-top: 7rem;
-  padding-bottom: 5rem;
-}
-.topContentContainer-blue:before {
-  height: 100%;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  background: linear-gradient(45deg, #003e68, #2ab1ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .topContent {
+  background-color: white;
   box-sizing: border-box;
-  width: 100%;
-  margin: 0rem auto;
-  color: #fff;
+  width: 90%;
+  margin: 0rem auto 3rem auto;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.topContent-blue {
-  margin-top: 4rem;
-}
+
 .topContent_name {
   display: inline-block;
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   padding: 0rem 1rem;
+  margin-top: 2.1rem;
   margin-bottom: 2rem;
 }
 .topContent_name-en {
-  border-left: 1px solid white;
+  border-left: 1px solid rgb(58, 58, 58);
 }
 .topContent_univ {
   line-height: 2rem;
-  font-weight: 500;
-  font-size: 1.1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 .topContent_department {
+  color: rgb(92, 92, 92);
+  font-weight: 700;
   font-size: 1.1rem;
 }
 .topContent_lab {
+  font-weight: 700;
+  color: rgb(92, 92, 92);
   font-size: 1.1rem;
 }
 .topContent_based {
   font-size: 1.1rem;
   line-height: 2rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 1rem;
+  color: rgb(92, 92, 92);
 }
 .top_based-en {
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
 }
 .topParagraphContainer {
   margin-top: 2rem;

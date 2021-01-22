@@ -10,7 +10,8 @@
   width: 100%;
   transform: translateY(-50%);
   color: rgb(255, 255, 255);
-  font-size: 6rem;
+  text-shadow: 1px 1px 1px #0000009f;
+  font-size: 7rem;
   font-family: "Montserrat", "Noto Sans JP", sans-serif;
   text-align: center;
 }
@@ -20,24 +21,27 @@
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
-  width: 10rem;
+  width: 11rem;
   height: 5rem;
-  background-color: rgb(255, 255, 255);
-  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.87);
+  border-radius: 2rem;
 }
 .heroImageText {
   position: absolute;
-  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
+  color: rgba(36, 36, 36, 0.877);
 }
 .heroImageText-ja {
   animation: fadeInOutJa 6.5s ease 0s infinite normal;
+  top: 55%;
+  font-weight: 700;
 }
 .heroImageText-en {
   animation: fadeInOutEn 6.5s ease 0s infinite normal;
+  top: 55.2%;
+  font-weight: 500;
 }
 .heroImage {
   width: 100vw;

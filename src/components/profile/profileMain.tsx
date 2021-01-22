@@ -64,7 +64,6 @@ const ProfileMain = () => {
                   </div>
               </div>
               <TitleBox ja="基本情報" en="Basic Information" />
-              <TitleCopy en="My roots and current me ..." />
               <div className="profileButtons">
                 <FormControl variant="outlined">
                   <Select className="profileButton" labelId="careerOrder" id="careerOrder" value={lang} onChange={(e) => setLang(Number(e.target.value))}>
@@ -85,7 +84,6 @@ const ProfileMain = () => {
               </div>
 
               <TitleBox ja="学歴" en="Education" />
-              <TitleCopy en="Where I've studied ..." />
               <div className="profileContentEducation">
                 <div className="profileButtons">
                   <FormControl variant="outlined" className="">
@@ -101,7 +99,8 @@ const ProfileMain = () => {
                     </Select>
                   </FormControl>
                 </div>
-                <div className="profileContentEducation_table">
+                <div className="whiteSpace2"></div>
+                <div className="simpleTableContainer">
                   {lang === 0 ?
                     <table>
                       {educations.map(education => (
@@ -125,8 +124,11 @@ const ProfileMain = () => {
               </div>
 
               <TitleBox ja="職歴" en="Career" />
-              <TitleCopy en="Experienced Jobs ..." />
               <div className="profileContentCareer">
+                <div className="whiteSpace"></div>
+                <div className="flexContainer">
+                  インターンシップ・アルバイトを含む
+                </div>
                 <div className="profileButtons">
                   <FormControl variant="outlined">
                     <Select className="profileButton" labelId="careerOrder" id="careerOrder" value={lang} onChange={(e) => setLang(Number(e.target.value))}>
@@ -142,29 +144,31 @@ const ProfileMain = () => {
                   </FormControl>
                 </div>
 
-                <div className="profileContentCareer_table">
-                  <div>
-                    {careers.map(career => (
-                      <a className="careerBoxLink" href={career.companyUrl} target="_blank">
-                        <CareerBox>
-                          <div className="careerBox_title">
-                            <h2>{lang === 0 ? career.companyJa : career.companyEn}</h2>
-                            <div className="careerBoxForm">{lang === 0 ? career.formJa : career.formEn}</div>
-                            <div className="careerBoxDetails"><LaunchIcon fontSize="inherit" /></div>
-                          </div>
-                          <div className="careerBox_content">
-                            <div className="careerBoxProgram">{lang === 0 ? '「' + career.programJa + '」' : <>&nbsp;&nbsp;{<i className="italic">{career.programEn}</i>}&nbsp;:&nbsp;</>}
-                            &nbsp;{career.startYear}/{career.startMonth} - {career.endYear === -1 ? (lang === 0 ? '継続中' : 'ongoing') : career.endYear}{career.endMonth !== -1 && '/' + career.endMonth} </div>
-                            <div className="careerBoxDescription">... {lang === 0 ? career.descriptionJa : career.descriptionEn}</div>
-                            <div className="careerBoxSkillsContainer">
-                              {career.skills.map(skill => (
-                                <span className="careerSkill">{lang === 0 ? skill.ja : skill.en}</span>
-                              ))}
+                <div className="flexContainer">
+                  <div className="profileContentCareer_table">
+                    <div>
+                      {careers.map(career => (
+                        <a className="careerBoxLink" href={career.companyUrl} target="_blank">
+                          <CareerBox>
+                            <div className="careerBox_title">
+                              <h2>{lang === 0 ? career.companyJa : career.companyEn}</h2>
+                              <div className="careerBoxForm">{lang === 0 ? career.formJa : career.formEn}</div>
+                              <div className="careerBoxDetails"><LaunchIcon fontSize="inherit" /></div>
                             </div>
-                          </div>
-                        </CareerBox>
-                      </a>
-                    ))}
+                            <div className="careerBox_content">
+                              <div className="careerBoxProgram">{lang === 0 ? '「' + career.programJa + '」' : <>&nbsp;&nbsp;{<i className="italic">{career.programEn}</i>}&nbsp;:&nbsp;</>}
+                            &nbsp;{career.startYear}/{career.startMonth} - {career.endYear === -1 ? (lang === 0 ? '継続中' : 'ongoing') : career.endYear}{career.endMonth !== -1 && '/' + career.endMonth} </div>
+                              <div className="careerBoxDescription">... {lang === 0 ? career.descriptionJa : career.descriptionEn}</div>
+                              <div className="careerBoxSkillsContainer">
+                                {career.skills.map(skill => (
+                                  <span className="careerSkill">{lang === 0 ? skill.ja : skill.en}</span>
+                                ))}
+                              </div>
+                            </div>
+                          </CareerBox>
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
