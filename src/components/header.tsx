@@ -26,11 +26,11 @@ const Header = () => (
               <div className="menuText">プロフィール</div>
               <div className="menuText menuText-en">Profile</div>
             </Link></li>
-            <li className="menu_item"><Link to="/workInProgress">
+            <li className="menu_item"><Link to="/notes">
               <div className="menuText">ノート</div>
               <div className="menuText menuText-en">Notes</div>
             </Link></li>
-            <li className="menu_item"><Link to="/workInProgress">
+            <li className="menu_item"><Link to="/portfolio">
               <div className="menuText">ポートフォリオ</div>
               <div className="menuText menuText-en">Portfolio</div>
             </Link></li>

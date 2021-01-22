@@ -78,11 +78,11 @@ const TopMain = () => {
             <div className="simpleTableContainer">
               <table>
                 <tr>
-                  <td>2020/11/08</td>
-                  <td><a href="/former">旧サイト</a>から新サイトに移行しました。</td>
+                  <td>2021/01/01</td>
+                  <td><a href="https://taigaozawa.github.io/former_portfolio">旧サイト</a>から新サイトに移行しました。</td>
                 </tr>
                 <tr>
-                  <td>2020/11/01</td>
+                  <td>2020/12/01</td>
                   <td>新サイトを制作しました。</td>
                 </tr>
               </table>

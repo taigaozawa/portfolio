@@ -109,3 +109,21 @@
   display: flex;
   flex-direction: column;
 }
+.contactContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactIcons {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.contactIcons_icon {
+  margin: 1rem;
+}
+.contactIcons_icon-black {
+  color: black;
+}
+.contactIcons_icon-black:hover {
+  color: rgba(0, 0, 0, 0.582);
+}
