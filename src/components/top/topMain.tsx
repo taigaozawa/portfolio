@@ -56,14 +56,12 @@ const TopMain = () => {
             <div className="whiteSpace"></div>
             <DetailBox link="/portfolio" titleJa="ポートフォリオを見る" titleEn="See portfolio" theme="blue">
               <ul>
-                <li>学習記録</li>
-                <li>ブックリスト</li>
-                <li>趣味・旅行記</li>
+                <li>Web アプリケーション</li>
+                <li>モバイル・アプリケーション</li>
               </ul>
               <ul>
-                <li>Study Record</li>
-                <li>Book List</li>
-                <li>Hobby / Travel</li>
+                <li>Web apps</li>
+                <li>Mobile apps</li>
               </ul>
             </DetailBox>
           </div>
