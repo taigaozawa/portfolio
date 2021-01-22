@@ -90,6 +90,7 @@
 .heroScroll_text {
   color: white;
   transition: 0.5s;
+  font-weight: 300;
 }
 .heroScroll:hover .heroScroll_sign {
   border: 2px solid rgba(255, 255, 255, 0.6);
