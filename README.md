@@ -1,6 +1,8 @@
 # Portfolio
 
-Site URL -> https://taigaozawa.netlify.app
+小澤泰河のポートフォリオページです。
+
+Site URL -> https://taigaozawa.net or https://taigaozawa.netlify.app
 
 ## Framework
 - Gatsby
