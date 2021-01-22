@@ -8,15 +8,12 @@ type DetailBoxProps = {
   link: string;
   titleJa: string;
   titleEn: string;
+  theme: string
 }
-const DetailBox: React.FC<DetailBoxProps> = ({ children, link, titleJa, titleEn }) => {
-  //const [showTextFlg, setShowTextFlg] = React.useState<number>(0);
-  //useInterval(() => {
-  //  setShowTextFlg(showTextFlg + 1);
-  //}, 3000)
+const DetailBox: React.FC<DetailBoxProps> = ({ children, link, titleJa, titleEn, theme }) => {
   return (
     <Link to={link} className="detailBoxContainer">
-      <div className="detailBox">
+      <div className={theme === 'red' ? "detailBox" : "detailBox detailBox-blue"}>
         <div className="detailBox_title">
           {titleJa}
         </div>

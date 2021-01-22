@@ -3,14 +3,17 @@
 }
 .profileImageText {
   position: absolute;
+  width: 100%;
   top: 55%;
   transform: translateY(-50%);
   font-weight: 500;
   font-size: 1.3rem;
-  width: 80%;
-  background: linear-gradient(-135deg,rgb(255, 136, 0), rgb(194, 18, 127));
-  display: flex;
-  justify-content: center;
+  text-shadow: 1px 1px 1px rgb(70, 70, 70);
+}
+.profileImageTextInner {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
 }
 .profileImage {
   width: 100vw;
@@ -32,10 +35,9 @@
 }
 .profileTitleDescription {
   display: flex;
+  flex-direction: column;
 }
 .profileTitleDescription_text {
   font-weight: 500;
-}
-.profileTitleDescription_text-en {
-  margin-left: 1rem;
+  line-height: 2rem;
 }

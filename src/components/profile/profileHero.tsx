@@ -8,21 +8,23 @@ const ProfileHero = () => {
   return (
     <div className="profileImageContainer">
       <div className="profileImageFilter">
-        <img className="profileImage" src="/whistler.jpg" alt="TMU" />
+        <img className="profileImage" src="/whistler.png" alt="Whistler" />
         <div className="profileImageText">
-          <div className="profileTitleContainer">
-            <div className="profileTitle">
-              プロフィール
+          <div className="profileImageTextInner">
+            <div className="profileTitleContainer">
+              <div className="profileTitle">
+                プロフィール
             </div>
-            <div className="profilteTitle profileTitle-en">
-              Profile
+              <div className="profilteTitle profileTitle-en">
+                Profile
             </div>
-            <div className="profileTitleDescription">
-              <div className="profileTitleDescription_text">
-                学歴、職歴、スキル・資格
-              </div>
-              <div className="profileTitleDescription_text profileTitleDescription_text-en">
-                Education, Career and Skills
+              <div className="profileTitleDescription">
+                <div className="profileTitleDescription_text">
+                  学歴、職歴、スキル・資格
+                </div>
+                <div className="profileTitleDescription_text">
+                  Education, Career and Skills
+                </div>
               </div>
             </div>
           </div>
