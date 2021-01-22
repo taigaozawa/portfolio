@@ -3,6 +3,7 @@ import useInterval from 'use-interval';
 import { Link } from 'react-scroll';
 import TitleBox from '../titleBox';
 import TitleCopy from '../titleCopy';
+import ContactBox from '../contactBox';
 import CareerBox from './careerBox';
 import { Select, MenuItem, FormControl } from '@material-ui/core';
 import LaunchIcon from '@material-ui/icons/Launch';
@@ -10,14 +11,6 @@ import { careerData } from '../../data/career';
 import { educationData } from '../../data/education';
 import { basicInfo } from '../../data/basicInfo';
 import { skillCategories, sk } from '../../data/skill';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core'; //fontawesomeのコアファイル
-import { fab } from '@fortawesome/free-brands-svg-icons'; //fontawesomeのbrandアイコンのインポート
-import { fas } from '@fortawesome/free-solid-svg-icons'; //fontawesomeのsolidアイコンのインポート
-import { far } from '@fortawesome/free-regular-svg-icons'; //fontawesomeのregularアイコンのインポート
-
-library.add(fab, fas, far); //他のコンポーネントから簡単に呼び出せるようにするための登録処理
 
 import '../../styles/main.css';
 import '../../styles/profileMain.css';
@@ -240,19 +233,8 @@ const ProfileMain = () => {
 
               <div className="whiteSpace2"></div>
               <TitleBox ja="連絡先" en="Contact" />
-              <div className="contactContainer">
-                <div className="contactIcons">
-                  <a href="https://github.com/taigaozawa" className="contactIcons_icon contactIcons_icon-black">
-                    <FontAwesomeIcon icon={['fab', 'github']} size="lg" />
-                  </a>
-                  <a href="https://twitter.com/taigaozawa" className="contactIcons_icon">
-                    <FontAwesomeIcon icon={['fab', 'twitter']} size="lg" />
-                  </a>
-                  <a href="mailto:contact.taigaozawa@gmail.com?subject=**件名を入力してください。Please enter a subject.**&amp;body=ご用件 Requirements:%0d%0aお名前 Your name:" className="contactIcons_icon contactIcons_icon-black">
-                    <FontAwesomeIcon icon={['fas', 'envelope']} size="lg" />
-                  </a>
-                </div>
-              </div>
+              <div className="whiteSpace2"></div>
+              <ContactBox />
             </div>
           </div>
         </div>

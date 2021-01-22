@@ -1,6 +1,7 @@
 import * as React from 'react';
 import DetailBox from '../detailBox';
 import TitleBox from '../titleBox';
+import ContactBox from '../contactBox';
 
 import '../../styles/main.css';
 import '../../styles/topMain.css';
@@ -16,6 +17,7 @@ const TopMain = () => {
             <span className="topContent_name">小澤 泰河</span>
             <span className="topContent_name topContent_name-en">Taiga Ozawa</span>
           </h2>
+          <ContactBox />
           <div className="topContent">
             <p className="topContent_univ">筑波大学　修士1年</p>
             <p className="topContent_department">理工情報生命学術院 数理物質科学研究群 物理学学位プログラム</p>
